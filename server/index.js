@@ -37,6 +37,6 @@ app.post('/checkout', (req, res) => {
     res.send('purchase complete');
 });
 
-app.listen(5000, () =>
-  console.log('Kuch alfaaz listening on port 5000!'),
+app.listen(80, () =>
+  console.log('Kuch alfaaz listening on port 80!'),
 );
